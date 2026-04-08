@@ -5,7 +5,7 @@
   "engines": { "node": ">=22" },
   "scripts": {
     "build": "echo 'build complete'",
-    "start": "npx paperclipai run --config ./paperclip.json --yes"
+    "start": "npx paperclipai run --config ./paperclip.json --repair"
   },
   "dependencies": {
     "paperclipai": "latest"
