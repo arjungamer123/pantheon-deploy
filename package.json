@@ -1,0 +1,13 @@
+{
+  "name": "pantheon-deploy",
+  "version": "1.0.0",
+  "private": true,
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "echo 'build complete'",
+    "start": "npx paperclipai start"
+  },
+  "dependencies": {
+    "paperclipai": "latest"
+  }
+}
