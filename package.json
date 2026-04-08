@@ -1,11 +1,12 @@
 {
   "name": "pantheon-deploy",
   "version": "1.0.0",
+  "type": "module",
   "private": true,
   "engines": { "node": ">=22" },
   "scripts": {
     "build": "echo 'build complete'",
-    "start": "npx paperclipai run --config ./paperclip.json --repair"
+    "start": "node start.mjs"
   },
   "dependencies": {
     "paperclipai": "latest"
