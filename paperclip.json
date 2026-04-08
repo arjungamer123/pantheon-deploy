@@ -3,11 +3,9 @@
     "version": 1
   },
   "database": {
-    "mode": "embedded-postgres",
-    "embeddedPostgresDataDir": "/paperclip/db",
-    "embeddedPostgresPort": 54329,
+    "mode": "postgres",
     "backup": {
-      "enabled": true,
+      "enabled": false,
       "intervalMinutes": 60,
       "retentionDays": 30,
       "dir": "/paperclip/backups"
